@@ -1,9 +1,12 @@
+
+/* --------------------------------
+  Mostrar imagen con características
+  GACC          202001231809
+   -------------------------------- */
+
 import 'package:flutter/material.dart';
-// Uncomment lines 7 and 10 to view the visual layout at runtime.
-// import 'package:flutter/rendering.dart' show debugPaintSizeEnabled;
 
 void main() {
-  // debugPaintSizeEnabled = true;
   runApp(MyApp());
 }
 
@@ -31,7 +34,7 @@ class MyApp extends StatelessWidget {
                 ),
                 Text(
                   'Kandersteg, Switzerland',
-                  style: TextStyle(
+                  style: TextStyle(x|
                     color: Colors.grey[500],
                   ),
                 ),
